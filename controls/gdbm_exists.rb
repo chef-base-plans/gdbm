@@ -10,7 +10,7 @@ control 'core-plans-gdbm-exists' do
   impact 1.0
   title 'Ensure gdbm exists'
   desc '
-  Verify gdbm by ensuring /bin/gdbm exists'
+  Verify gdbm by ensuring /bin/gdbmtool exists'
   
   describe plan_installation_directory do
     its('exit_status') { should eq 0 }
