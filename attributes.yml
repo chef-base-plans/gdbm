@@ -1,1 +1,1 @@
-command_path: '/bin/gdbmtool'
+command_relative_path: '/bin/gdbmtool'
