@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.gdbm?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=69&branchName=master)
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.gdbm?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=110&branchName=master)
 
 # gdbm
 
@@ -39,6 +39,22 @@ will add the following binaries to the PATH:
 * /bin/gdbm_dump
 * /bin/gdbm_load
 * /bin/gdbmtool
+
+For example:
+
+```bash
+$ hab pkg install core/gdbm --binlink
+» Installing core/gdbm
+☁ Determining latest version of core/gdbm in the 'stable' channel
+→ Using core/gdbm/1.18.1/20200305234038
+★ Install of core/gdbm/1.18.1/20200305234038 complete with 0 new packages installed.
+» Binlinking gdbm_dump from core/gdbm/1.18.1/20200305234038 into /bin
+★ Binlinked gdbm_dump from core/gdbm/1.18.1/20200305234038 to /bin/gdbm_dump
+» Binlinking gdbm_load from core/gdbm/1.18.1/20200305234038 into /bin
+★ Binlinked gdbm_load from core/gdbm/1.18.1/20200305234038 to /bin/gdbm_load
+» Binlinking gdbmtool from core/gdbm/1.18.1/20200305234038 into /bin
+★ Binlinked gdbmtool from core/gdbm/1.18.1/20200305234038 to /bin/gdbmtool
+```
 
 #### Using an example binary
 
