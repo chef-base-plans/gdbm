@@ -9,7 +9,7 @@ similar to the standard UNIX dbm routines.\
 pkg_upstream_url="http://www.gnu.org/software/gdbm/gdbm.html"
 pkg_license=('gplv3+')
 pkg_source="http://ftp.gnu.org/gnu/$pkg_name/${pkg_name}-${pkg_version}.tar.gz"
-pkg_shasum="2b6cc7453341904432b457fb8a2450e5f2aaf331"
+pkg_shasum="37ed12214122b972e18a0d94995039e57748191939ef74115b1d41d8811364bc"
 pkg_build_deps=(
   core/coreutils
   core/dejagnu
